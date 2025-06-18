@@ -3281,16 +3281,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Unmirrored\n"
-		(exclude_from_sim no)
-		(at 175.26 79.502 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2ae938a2-ec0e-46a6-abc9-6ae092229261")
-	)
 	(text "Additional pin functions:\nhttps://pinout.xyz/"
 		(exclude_from_sim no)
 		(at 179.07 180.34 0)
@@ -3302,15 +3292,15 @@
 		)
 		(uuid "36e2c557-2c2a-4fba-9b6f-1167ab8ec281")
 	)
-	(text "NOTE: We mirror the connections because\nwe're going to be soldering the\nHirose connectors underneath the board\nso we don't use vias.\n"
+	(text "Vout = 0.796 * (1 + 5.6/1.05) = 5.04V"
 		(exclude_from_sim no)
-		(at 199.898 23.876 0)
+		(at 99.06 158.242 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "ebe2171d-a102-41d4-b4e4-f42cf55af83c")
+		(uuid "e545bb52-ed83-4203-b2aa-6f1f66513255")
 	)
 	(junction
 		(at 43.18 127)
@@ -6592,7 +6582,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.62k"
+		(property "Value" "5.6k"
 			(at 92.71 132.0799 0)
 			(effects
 				(font
