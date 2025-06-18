@@ -8,6 +8,169 @@
 		(date "15 nov 2012")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J2"
+				(at 0.635 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
 				(offset 1.016)
@@ -2263,6 +2426,241 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:50SVPF39M"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "50SVPF39M"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "16SVPT560M"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C177.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Panasonic 39uF 50 V dc Polymer Aluminium Electrolytic Capacitor E12, OS-CON Series 5000h 8 x 11.9mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "12"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Panasonic"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "50SVPF39M"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "667-50SVPF39M"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/50SVPF39M?qs=OE1iw1LrrPHhzrJH1runJQ%3D%3D"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "50SVPF39M"
+				(at 8.89 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/50svpf39m/panasonic?utm_currency=USD&region=nac"
+				(at 8.89 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "50SVPF39M_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 1.778) (xy 4.064 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 1.27) (xy 3.556 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 2.54)
+					(end 5.842 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54) (xy 6.858 -2.54) (xy 6.858 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -2647,6 +3045,12 @@
 		(uuid "ebe2171d-a102-41d4-b4e4-f42cf55af83c")
 	)
 	(junction
+		(at 43.18 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0403afcd-2c42-48fd-bc78-29de5d1fa993")
+	)
+	(junction
 		(at 76.2 27.94)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -2695,6 +3099,12 @@
 		(uuid "9340c285-5767-42d5-8b6d-63fe2a40ddf3")
 	)
 	(junction
+		(at 127 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "984e1913-29d9-4992-8809-6262bd64be82")
+	)
+	(junction
 		(at 102.87 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2723,6 +3133,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1bc5aa5-b66d-4be3-8c24-6fe4f954350a")
+	)
+	(junction
+		(at 31.75 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5a9aff4-32b2-45ad-99db-2a1a2fe51729")
 	)
 	(junction
 		(at 55.88 27.94)
@@ -2769,16 +3185,6 @@
 			(type solid)
 		)
 		(uuid "0694ca26-7b8c-4c30-bae9-3b74fab1e60a")
-	)
-	(wire
-		(pts
-			(xy 127 99.06) (xy 153.67 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "094d6f7f-e72d-4933-aa30-45213e8581f7")
 	)
 	(wire
 		(pts
@@ -2842,6 +3248,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 140.97) (xy 31.75 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21a57975-ecb7-460f-b480-76296b214002")
+	)
+	(wire
+		(pts
 			(xy 76.2 50.8) (xy 76.2 63.5)
 		)
 		(stroke
@@ -2869,6 +3285,16 @@
 			(type solid)
 		)
 		(uuid "2710a316-ad7d-4403-afc1-1df73ba69697")
+	)
+	(wire
+		(pts
+			(xy 31.75 127) (xy 43.18 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b91e3e-8ae0-4dcd-98c1-8e3ed7954356")
 	)
 	(wire
 		(pts
@@ -2919,6 +3345,16 @@
 			(type solid)
 		)
 		(uuid "335bbf29-f5b7-4e5a-993a-a34ce5ab5756")
+	)
+	(wire
+		(pts
+			(xy 127 104.14) (xy 153.67 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "343ba315-1e74-4d33-a9d4-541c1886cecf")
 	)
 	(wire
 		(pts
@@ -2989,16 +3425,6 @@
 			(type default)
 		)
 		(uuid "484b67b3-d9f4-4a5a-9869-89c20cfc979b")
-	)
-	(wire
-		(pts
-			(xy 127 104.14) (xy 153.67 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c07a8a4-2585-4352-b87e-c5227d7fde2e")
 	)
 	(wire
 		(pts
@@ -3132,6 +3558,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 139.7) (xy 31.75 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a00f854-28ab-4373-ac8c-c4ead070abfa")
+	)
+	(wire
+		(pts
 			(xy 53.34 137.16) (xy 53.34 144.78)
 		)
 		(stroke
@@ -3139,6 +3575,16 @@
 			(type default)
 		)
 		(uuid "6a74be22-47e4-4d29-b5ba-302d0117ef65")
+	)
+	(wire
+		(pts
+			(xy 127 99.06) (xy 153.67 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b88f34b-97c0-46c8-baf7-04568ff81122")
 	)
 	(wire
 		(pts
@@ -3169,6 +3615,16 @@
 			(type solid)
 		)
 		(uuid "707b993a-397a-40ee-bc4e-978ea0af003d")
+	)
+	(wire
+		(pts
+			(xy 127 127) (xy 132.08 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70e20057-f9b7-414c-91d4-48fdd5c5730f")
 	)
 	(wire
 		(pts
@@ -3322,6 +3778,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 140.97) (xy 31.75 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e1deef-94bc-4e62-9abd-a674ad3fb2b7")
+	)
+	(wire
+		(pts
 			(xy 127 49.53) (xy 152.4 49.53)
 		)
 		(stroke
@@ -3422,6 +3888,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 147.32) (xy 40.64 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6d7976a-c18a-4f32-ac1f-6f42e913c4c3")
+	)
+	(wire
+		(pts
 			(xy 76.2 30.48) (xy 73.66 30.48)
 		)
 		(stroke
@@ -3452,6 +3928,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 127) (xy 43.18 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2f10093-abb1-4cd1-9d67-6332c570ba0a")
+	)
+	(wire
+		(pts
 			(xy 73.66 71.12) (xy 100.33 71.12)
 		)
 		(stroke
@@ -3459,16 +3945,6 @@
 			(type solid)
 		)
 		(uuid "b36591f4-a77c-49fb-84e3-ce0d65ee7c7c")
-	)
-	(wire
-		(pts
-			(xy 24.13 127) (xy 53.34 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b38d6e82-054c-4b09-8c76-adae656d013e")
 	)
 	(wire
 		(pts
@@ -3539,6 +4015,16 @@
 			(type solid)
 		)
 		(uuid "c15b519d-5e2e-489c-91b6-d8ff3e8343cb")
+	)
+	(wire
+		(pts
+			(xy 127 101.6) (xy 153.67 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c19614fb-d872-4fc3-9579-44e2af1c3ee3")
 	)
 	(wire
 		(pts
@@ -3652,13 +4138,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 101.6) (xy 153.67 101.6)
+			(xy 43.18 127) (xy 53.34 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dfa22017-4f13-4ef1-ac96-15c835efc34e")
+		(uuid "e11ca84e-1cc9-4b26-8ed1-009aa10bfcd5")
 	)
 	(wire
 		(pts
@@ -3689,16 +4175,6 @@
 			(type solid)
 		)
 		(uuid "ed4af6f5-c1f9-4ac6-b35e-2b9ff5cd0eb3")
-	)
-	(wire
-		(pts
-			(xy 24.13 134.62) (xy 24.13 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3d4b262-93d4-425b-a7a6-5247ba623654")
 	)
 	(wire
 		(pts
@@ -3759,6 +4235,16 @@
 			(type default)
 		)
 		(uuid "fdb20e66-7269-4f60-8bf9-0d704473a042")
+	)
+	(label "+5V"
+		(at 132.08 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07ba8bc1-8b5a-4cb1-b4a9-c9bb599afa44")
 	)
 	(label "ID_SDA"
 		(at 31.75 60.96 0)
@@ -4664,6 +5150,148 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:50SVPF39M")
+		(at 31.75 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b0ab162-3e24-42a2-8313-e8dda887f3dd")
+		(property "Reference" "C4"
+			(at 35.56 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "50SVPF39M"
+			(at 35.56 134.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "16SVPT560M"
+			(at -64.44 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C177.pdf"
+			(at -164.44 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Panasonic 39uF 50 V dc Polymer Aluminium Electrolytic Capacitor E12, OS-CON Series 5000h 8 x 11.9mm"
+			(at 31.75 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "12"
+			(at -364.44 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at -464.44 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "50SVPF39M"
+			(at -564.44 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-50SVPF39M"
+			(at -664.44 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/50SVPF39M?qs=OE1iw1LrrPHhzrJH1runJQ%3D%3D"
+			(at -764.44 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "50SVPF39M"
+			(at -864.44 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/50svpf39m/panasonic?utm_currency=USD&region=nac"
+			(at -964.44 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c86ee170-c3d6-48f0-b6ce-b481ee511e78")
+		)
+		(pin "2"
+			(uuid "5467640c-7db1-4748-bd9f-b7fa35d1d9e9")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 119.38 99.06 0)
 		(unit 1)
@@ -4730,79 +5358,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 24.13 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b0e0480-19ae-487e-b065-4d1a868f9814")
-		(property "Reference" "C1"
-			(at 27.94 129.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "39uF X7R/X5R, hi-V"
-			(at 27.94 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.0952 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 24.13 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "abb1e787-a973-47e8-979a-d29759d6519a")
-		)
-		(pin "1"
-			(uuid "08092f4d-039c-4e52-9fb6-42ff8f1e5bd1")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 158.75 101.6 0)
-		(mirror x)
+		(at 158.75 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4810,7 +5367,7 @@
 		(dnp no)
 		(uuid "29df47b2-7b03-4aeb-8997-01f5e30c1626")
 		(property "Reference" "UART1"
-			(at 160.02 101.6001 0)
+			(at 160.02 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,7 +5376,7 @@
 			)
 		)
 		(property "Value" "DF13_4p_female"
-			(at 160.02 99.0601 0)
+			(at 160.02 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4828,7 +5385,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Hirose:Hirose_DF13-04P-1.25DS_1x04_P1.25mm_Horizontal"
-			(at 158.75 101.6 0)
+			(at 158.75 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,7 +5394,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 101.6 0)
+			(at 158.75 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4846,7 +5403,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 158.75 101.6 0)
+			(at 158.75 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4878,7 +5435,6 @@
 	(symbol
 		(lib_id "Connector:Conn_01x05_Socket")
 		(at 157.48 31.75 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4886,7 +5442,7 @@
 		(dnp no)
 		(uuid "33259f32-ccc4-46be-b541-38186c4e9cee")
 		(property "Reference" "SPI0"
-			(at 158.75 33.0201 0)
+			(at 158.75 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4895,7 +5451,7 @@
 			)
 		)
 		(property "Value" "DF13_5p_female"
-			(at 158.75 30.4801 0)
+			(at 158.75 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5312,7 +5868,6 @@
 	(symbol
 		(lib_id "Connector:Conn_01x05_Socket")
 		(at 157.48 46.99 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5320,7 +5875,7 @@
 		(dnp no)
 		(uuid "814c27ac-a5e4-4c7d-b481-fd0e3c213755")
 		(property "Reference" "SPI1"
-			(at 158.75 48.2601 0)
+			(at 158.75 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,7 +5884,7 @@
 			)
 		)
 		(property "Value" "DF13_5p_female"
-			(at 158.75 45.7201 0)
+			(at 158.75 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5614,7 +6169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 88.392 130.81 90)
 			(effects
 				(font
@@ -5623,7 +6178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fr.rs-online.com/web/p/resistances-a-montage-en-surface/2430635"
 			(at 90.17 130.81 0)
 			(effects
 				(font
@@ -5651,6 +6206,76 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 40.64 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b42d4954-8b96-4924-a793-55b0a4c1bae0")
+		(property "Reference" "J2"
+			(at 44.45 150.4949 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PWR"
+			(at 44.45 153.0349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "-"
+			(uuid "8f7a5dba-010b-4d77-b399-20681362c106")
+		)
+		(pin "+"
+			(uuid "0d9605f3-9d4c-408e-9671-e20631da8c83")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5805,7 +6430,6 @@
 	(symbol
 		(lib_id "Connector:Conn_01x05_Socket")
 		(at 157.48 62.23 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5813,7 +6437,7 @@
 		(dnp no)
 		(uuid "f74a4647-30b2-4d8b-b42b-cecdb106f232")
 		(property "Reference" "SPI2"
-			(at 158.75 63.5001 0)
+			(at 158.75 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5822,7 +6446,7 @@
 			)
 		)
 		(property "Value" "DF13_5p_female"
-			(at 158.75 60.9601 0)
+			(at 158.75 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5883,7 +6507,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 139.7 0)
+		(at 31.75 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5892,7 +6516,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7a5704d-af17-4c25-b231-2f3f5d6ed570")
 		(property "Reference" "#PWR011"
-			(at 24.13 146.05 0)
+			(at 31.75 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5901,7 +6525,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 144.78 0)
+			(at 31.75 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5909,7 +6533,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 139.7 0)
+			(at 31.75 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5918,7 +6542,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 139.7 0)
+			(at 31.75 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5927,7 +6551,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 139.7 0)
+			(at 31.75 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
