@@ -5765,7 +5765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "16SVPT560M"
+		(property "Footprint" "imported:16SVPT560M"
 			(at -30.15 135.89 0)
 			(effects
 				(font
@@ -6250,7 +6250,7 @@
 				)
 			)
 		)
-		(property "Value" "LMZ23605TZ"
+		(property "Value" "imported:LMZ23605TZ"
 			(at 100.33 121.92 0)
 			(effects
 				(font
@@ -6479,7 +6479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EEFCX0J101R"
+		(property "Footprint" "imported:EEFCX0J101R"
 			(at 40.97 139.7 0)
 			(effects
 				(font
@@ -6601,7 +6601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "imported:CAPC1608X90N"
 			(at -55.55 135.89 0)
 			(effects
 				(font
@@ -6732,7 +6732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "imported:CAPC1608X90N"
 			(at -42.85 135.89 0)
 			(effects
 				(font
@@ -7141,7 +7141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC3216X180N"
+		(property "Footprint" "imported:CAPC3216X180N"
 			(at 65.1 139.7 0)
 			(effects
 				(font
