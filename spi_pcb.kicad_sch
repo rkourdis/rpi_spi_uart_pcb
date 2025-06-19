@@ -3494,9 +3494,9 @@
 		)
 		(uuid "aced1d94-83f5-4eca-939f-d00ed4346754")
 	)
-	(text "Vout = 0.796 * (1 + 5.6/1.05) = 5.04V"
+	(text "Vout = 0.796 * (1 + 5.6/1.051) = 5.03V"
 		(exclude_from_sim no)
-		(at 133.35 158.242 0)
+		(at 133.35 169.672 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3515,6 +3515,12 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "0eaa98f0-9565-4637-ace3-42a5231b07f7")
+	)
+	(junction
+		(at 137.16 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15e2143a-13a5-41e7-94b0-6f85c2930976")
 	)
 	(junction
 		(at 76.2 43.18)
@@ -3571,12 +3577,6 @@
 		(uuid "865d31a2-9fc7-4079-a0ed-4f4e43fe7081")
 	)
 	(junction
-		(at 137.16 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d883be7-29bb-4d59-af83-6e339d835ecf")
-	)
-	(junction
 		(at 76.2 68.58)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -3595,12 +3595,6 @@
 		(uuid "b3d71bb5-d6cc-4a56-9242-87662c5f7738")
 	)
 	(junction
-		(at 124.46 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bbb3c699-6522-43e8-a9c5-f6c2d4d03848")
-	)
-	(junction
 		(at 76.2 63.5)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -3617,6 +3611,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5a9aff4-32b2-45ad-99db-2a1a2fe51729")
+	)
+	(junction
+		(at 124.46 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8b19c0d-394c-41ed-b161-d011df71c1e0")
 	)
 	(junction
 		(at 55.88 27.94)
@@ -3846,7 +3846,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 137.16) (xy 124.46 138.43)
+			(xy 124.46 137.16) (xy 124.46 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4046,6 +4046,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 147.32) (xy 137.16 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e16c25f-c957-4042-aa40-d3379fb2ae17")
+	)
+	(wire
+		(pts
 			(xy 113.03 127) (xy 124.46 127)
 		)
 		(stroke
@@ -4076,7 +4086,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 146.05) (xy 124.46 147.32)
+			(xy 124.46 156.21) (xy 124.46 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4336,6 +4346,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 157.48) (xy 124.46 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95aa7e8d-464e-4f7b-98f7-05bd6493bfdf")
+	)
+	(wire
+		(pts
 			(xy 31.75 45.72) (xy 60.96 45.72)
 		)
 		(stroke
@@ -4526,16 +4546,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 147.32) (xy 137.16 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6e88e39-d37c-4a80-8a81-430a05e31227")
-	)
-	(wire
-		(pts
 			(xy 73.66 66.04) (xy 100.33 66.04)
 		)
 		(stroke
@@ -4676,16 +4686,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 147.32) (xy 124.46 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db309176-e5b4-4731-8f50-0c604c12eb3c")
-	)
-	(wire
-		(pts
 			(xy 76.2 68.58) (xy 76.2 80.01)
 		)
 		(stroke
@@ -4723,6 +4723,16 @@
 			(type default)
 		)
 		(uuid "e11ca84e-1cc9-4b26-8ed1-009aa10bfcd5")
+	)
+	(wire
+		(pts
+			(xy 124.46 157.48) (xy 124.46 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e61f488f-efb3-427d-8bd9-8135d4e31e4f")
 	)
 	(wire
 		(pts
@@ -4773,6 +4783,16 @@
 			(type default)
 		)
 		(uuid "f670d0c8-4f6f-4a7c-b1af-31d7eb71e4dd")
+	)
+	(wire
+		(pts
+			(xy 124.46 147.32) (xy 124.46 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6c80a2a-ae65-42eb-b7bc-8292d0af0f44")
 	)
 	(wire
 		(pts
@@ -6317,7 +6337,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 124.46 142.24 0)
+		(at 124.46 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6325,8 +6345,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "526c7fa7-7bc2-41b2-98c1-14b24a8e848a")
-		(property "Reference" "R2"
-			(at 127 140.9699 0)
+		(property "Reference" "Rfb2"
+			(at 127 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6334,8 +6354,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.05k"
-			(at 127 143.5099 0)
+		(property "Value" "51"
+			(at 127 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,7 +6364,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 122.682 142.24 90)
+			(at 122.682 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6353,7 +6373,7 @@
 			)
 		)
 		(property "Datasheet" "https://fr.farnell.com/multicomp-pro/mcwr06x1051ftl/resist-1k05-1-0-1w-couche-epaisse/dp/2447273"
-			(at 124.46 142.24 0)
+			(at 124.46 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6362,7 +6382,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124.46 142.24 0)
+			(at 124.46 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6379,7 +6399,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R2")
+					(reference "Rfb2")
 					(unit 1)
 				)
 			)
@@ -7049,7 +7069,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 148.59 0)
+		(at 124.46 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7058,7 +7078,7 @@
 		(fields_autoplaced yes)
 		(uuid "93dcbc1d-9635-460d-849c-8e4f5b97c22b")
 		(property "Reference" "#PWR012"
-			(at 124.46 154.94 0)
+			(at 124.46 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7067,7 +7087,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 153.67 0)
+			(at 124.46 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7075,7 +7095,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 148.59 0)
+			(at 124.46 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7084,7 +7104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 148.59 0)
+			(at 124.46 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7093,7 +7113,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 148.59 0)
+			(at 124.46 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7504,6 +7524,76 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be4eb611-b352-461e-ab7d-5ac4b89c81c0")
+		(property "Reference" "Rfb1"
+			(at 127 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 127 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 122.682 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fr.farnell.com/multicomp-pro/mcwr06x1051ftl/resist-1k05-1-0-1w-couche-epaisse/dp/2447273"
+			(at 124.46 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f06010af-d664-4d1b-b385-5aa6821f4366")
+		)
+		(pin "1"
+			(uuid "7c4af6d1-7025-41ba-88f1-b243a5121f15")
+		)
+		(instances
+			(project "spi_pcb"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Rfb1")
 					(unit 1)
 				)
 			)
