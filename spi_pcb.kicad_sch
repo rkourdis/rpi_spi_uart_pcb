@@ -3484,6 +3484,16 @@
 		)
 		(uuid "36e2c557-2c2a-4fba-9b6f-1167ab8ec281")
 	)
+	(text "Impedance matching resistors close to SPI source signals\n"
+		(exclude_from_sim no)
+		(at 151.892 71.374 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aced1d94-83f5-4eca-939f-d00ed4346754")
+	)
 	(text "Vout = 0.796 * (1 + 5.6/1.05) = 5.04V"
 		(exclude_from_sim no)
 		(at 133.35 158.242 0)
@@ -3666,7 +3676,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 67.31) (xy 165.1 67.31)
+			(xy 127 67.31) (xy 148.59 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3706,7 +3716,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 36.83) (xy 165.1 36.83)
+			(xy 127 36.83) (xy 148.59 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3816,7 +3826,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 62.23) (xy 165.1 62.23)
+			(xy 127 62.23) (xy 148.59 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3876,7 +3886,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 52.07) (xy 165.1 52.07)
+			(xy 127 52.07) (xy 148.59 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4166,6 +4176,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 62.23) (xy 165.1 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a01c300-8716-4931-ae5d-971c50dda0c9")
+	)
+	(wire
+		(pts
 			(xy 76.2 43.18) (xy 76.2 50.8)
 		)
 		(stroke
@@ -4376,6 +4396,26 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 52.07) (xy 165.1 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c72fb5-ee71-45a1-b554-233595ca78f8")
+	)
+	(wire
+		(pts
+			(xy 156.21 36.83) (xy 165.1 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2e80624-3aa7-4bda-ad80-562a6283db42")
+	)
+	(wire
+		(pts
 			(xy 127 44.45) (xy 165.1 44.45)
 		)
 		(stroke
@@ -4386,7 +4426,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 81.28) (xy 144.78 81.28)
+			(xy 138.43 86.36) (xy 144.78 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4526,7 +4566,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 86.36) (xy 144.78 86.36)
+			(xy 138.43 91.44) (xy 144.78 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4556,7 +4596,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 76.2) (xy 144.78 76.2)
+			(xy 130.81 81.28) (xy 144.78 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4576,7 +4616,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 78.74) (xy 144.78 78.74)
+			(xy 138.43 83.82) (xy 144.78 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4596,13 +4636,23 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 83.82) (xy 144.78 83.82)
+			(xy 138.43 88.9) (xy 144.78 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cecfdc37-8ae6-4a3d-a732-9632950b9a1d")
+	)
+	(wire
+		(pts
+			(xy 156.21 67.31) (xy 165.1 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf1b3cd8-d951-430e-bc9a-ef97a7da89fb")
 	)
 	(wire
 		(pts
@@ -4616,7 +4666,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 76.2) (xy 130.81 78.74)
+			(xy 130.81 81.28) (xy 130.81 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4726,6 +4776,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 46.99) (xy 165.1 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8a10207-61a2-442a-a5b7-c460734df27b")
+	)
+	(wire
+		(pts
 			(xy 124.46 134.62) (xy 124.46 137.16)
 		)
 		(stroke
@@ -4736,7 +4796,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 46.99) (xy 165.1 46.99)
+			(xy 127 46.99) (xy 148.59 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4825,7 +4885,7 @@
 		(uuid "197b463d-ce90-4b82-a690-dbbb35ba0604")
 	)
 	(label "MISO"
-		(at 138.43 78.74 0)
+		(at 138.43 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5035,7 +5095,7 @@
 		(uuid "6b239167-c354-41fe-a8b1-8474223df1cc")
 	)
 	(label "CS"
-		(at 138.43 83.82 0)
+		(at 138.43 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5055,7 +5115,7 @@
 		(uuid "70d31cd9-0dc3-413e-92d6-76a026f869db")
 	)
 	(label "MOSI"
-		(at 138.43 86.36 0)
+		(at 138.43 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5225,7 +5285,7 @@
 		(uuid "cbcd69bf-09f7-4acb-94bf-da660619b4c3")
 	)
 	(label "CLK"
-		(at 138.43 81.28 0)
+		(at 138.43 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5814,6 +5874,74 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 152.4 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ec11d64-53ca-451d-b443-3d625d7323b6")
+		(property "Reference" "R6"
+			(at 152.4 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10"
+			(at 152.4 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 152.4 48.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 152.4 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "25ac123b-4596-41e4-83bb-d1564dc432ee")
+		)
+		(pin "1"
+			(uuid "a31c1cba-9453-42df-9878-e4bd31fd686e")
+		)
+		(instances
+			(project "spi_pcb"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6708,6 +6836,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 152.4 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e923f94-8751-4d79-84d2-1406d9c826be")
+		(property "Reference" "R4"
+			(at 152.4 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10"
+			(at 152.4 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 152.4 38.608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 152.4 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3da3ed73-9780-4cd3-b519-8b61b602b401")
+		)
+		(pin "1"
+			(uuid "5ef6884a-de6c-4451-a22a-930275d42525")
+		)
+		(instances
+			(project "spi_pcb"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x05_Socket")
 		(at 170.18 46.99 0)
 		(unit 1)
@@ -7041,7 +7237,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 78.74 0)
+		(at 130.81 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7050,7 +7246,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c055455-7cd0-4e41-b962-35b1f7a23b4d")
 		(property "Reference" "#PWR010"
-			(at 130.81 85.09 0)
+			(at 130.81 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7059,7 +7255,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 83.82 0)
+			(at 130.81 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7067,7 +7263,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 78.74 0)
+			(at 130.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,7 +7272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 78.74 0)
+			(at 130.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7085,7 +7281,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 78.74 0)
+			(at 130.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7176,6 +7372,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 152.4 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad5da68f-6270-4ce3-bd41-ba1c87b73c58")
+		(property "Reference" "R7"
+			(at 152.4 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10"
+			(at 152.4 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 152.4 64.008 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 152.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bbcf7b5c-e5fc-45bd-8e1b-365265334982")
+		)
+		(pin "1"
+			(uuid "f5f1651c-76e6-48c4-92e1-f466f720c3af")
+		)
+		(instances
+			(project "spi_pcb"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 74.93 152.4 90)
 		(unit 1)
@@ -7247,7 +7511,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Socket")
-		(at 149.86 81.28 0)
+		(at 149.86 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7255,7 +7519,7 @@
 		(dnp no)
 		(uuid "c1d7ffc9-0f24-4a32-aef9-08d2857e4994")
 		(property "Reference" "#pinout1"
-			(at 155.702 78.74 0)
+			(at 155.702 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7263,7 +7527,7 @@
 			)
 		)
 		(property "Value" "DF13_5p_female"
-			(at 159.512 81.28 0)
+			(at 159.512 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7271,7 +7535,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Hirose:Hirose_DF13-05P-1.25DS_1x05_P1.25mm_Horizontal"
-			(at 149.86 81.28 0)
+			(at 149.86 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7280,7 +7544,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 81.28 0)
+			(at 149.86 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7289,7 +7553,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 149.86 81.28 0)
+			(at 149.86 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7384,6 +7648,142 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 152.4 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d02aa466-3f48-4142-87ed-13e379d18345")
+		(property "Reference" "R8"
+			(at 152.4 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10"
+			(at 152.4 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 152.4 69.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 152.4 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a610a531-d090-406b-9b73-f74b3dc29ab8")
+		)
+		(pin "1"
+			(uuid "71f1354a-1aff-4b87-a3fa-3c27e2ea756d")
+		)
+		(instances
+			(project "spi_pcb"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 152.4 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e293bb96-25ea-4a93-859d-ecaaca031e8f")
+		(property "Reference" "R5"
+			(at 152.4 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10"
+			(at 152.4 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 152.4 53.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 152.4 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "18fcdd0f-187c-47d9-80a9-6a06321b6237")
+		)
+		(pin "1"
+			(uuid "069b41d7-2fe9-4930-adef-332b7309deb8")
+		)
+		(instances
+			(project "spi_pcb"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R5")
 					(unit 1)
 				)
 			)
